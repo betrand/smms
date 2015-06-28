@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="RequestAccess" cloudDestinationProperty="RequestAccess" rtl="true" title="Request Access" >
+  <component type="Button" name="Button" cloudDestinationProperty="Button" commandName="Send" commandId="3" commandAction="" commandBack="false" text="Send" >
+  </component>
+  <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="Enter Username" >
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" text="Username" >
+  </component>
+</component>

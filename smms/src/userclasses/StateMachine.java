@@ -5,8 +5,6 @@
 package userclasses;
 
 import generated.StateMachineBase;
-import com.codename1.ui.*; 
-import com.codename1.ui.events.*;
 import com.codename1.ui.util.Resources;
 
 /**
@@ -23,8 +21,20 @@ public class StateMachine extends StateMachineBase {
     /**
      * this method should be used to initialize variables instead of
      * the constructor/class scope to avoid race conditions
+     * @param res
      */
+    @Override
     protected void initVars(Resources res) {
     }
 
+
+    protected boolean onRequestAccessSend() {
+        
+        return true;
+    }
+
+    protected boolean onMainRequestAccess() {
+        
+        return true;
+    }
 }
