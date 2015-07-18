@@ -1,10 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <resource majorVersion="1" minorVersion="6" useXmlUI="false">
+    <image name="border.png"  />
+    <image name="cal_left_arrow.png" type="multi"  />
+    <image name="cal_right_arrow.png" type="multi"  />
+    <image name="chbox1.png" type="multi"  />
+    <image name="chboxv1.png" type="multi"  />
+    <image name="ComboBox.borderBottom_1.png" type="multi"  />
+    <image name="ComboBox.borderBottomL_1.png" type="multi"  />
+    <image name="ComboBox.borderBottomR_1.png" type="multi"  />
+    <image name="ComboBox.borderCenter_1.png" type="multi"  />
+    <image name="ComboBox.borderLeft_1.png" type="multi"  />
+    <image name="ComboBox.borderRight_1.png" type="multi"  />
+    <image name="ComboBox.borderTop_1.png" type="multi"  />
+    <image name="ComboBox.borderTopL_1.png" type="multi"  />
+    <image name="ComboBox.borderTopR_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderBottom_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderBottomL_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderBottomR_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderCenter_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderLeft_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderRight_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderTop_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderTopL_1.png" type="multi"  />
+    <image name="ComboBox.sel#borderTopR_1.png" type="multi"  />
+    <image name="Dialog.borderBottom_1.png" type="multi"  />
+    <image name="Dialog.borderBottomL_1.png" type="multi"  />
+    <image name="Dialog.borderBottomR_1.png" type="multi"  />
+    <image name="Dialog.borderCenter_1.png" type="multi"  />
+    <image name="Dialog.borderLeft_1.png" type="multi"  />
+    <image name="Dialog.borderRight_1.png" type="multi"  />
+    <image name="Dialog.borderTop_1.png" type="multi"  />
+    <image name="Dialog.borderTopL_1.png" type="multi"  />
+    <image name="Dialog.borderTopR_1.png" type="multi"  />
+    <l10n name="Localization">
+        <lang name="iw">
+            <entry key="t2g.gamelocal" value="&#x5d4;&#x5e9;&#x5ea;&#x5ea;&#x5e4;&#x5d5;&#x5ea; &#x5d1;&#x5de;&#x5e9;&#x5d7;&#x5e7; &#x5d6;&#x5d4; &#x5ea;&#x5ea;&#x5d0;&#x5e4;&#x5e9;&#x5e8; &#x5e8;&#x5e7; &#x5d1;&#x5d0;&#x5e8;&#x5e5;" />
+            <entry key="t2g.err2" value="&#x5d7;&#x5d6;&#x5d5;&#x5e8; &#x5dc;&#x5de;&#x5d5;&#x5e9;&#x5d1;&#x5da;" />
+            <entry key="t2g.err1" value="&#x5e0;&#x5d5;&#x5e1;&#x5e2; &#x5d9;&#x5e7;&#x5e8;" />
+            <entry key="menu" value="" />
+            <entry key="t2g.noGPS" value="&#x5dc;&#x5d0; &#x5de;&#x5e6;&#x5dc;&#x5d9;&#x5d7;&#x5d9;&#x5dd; &#x5dc;&#x5d0;&#x5ea;&#x5e8; &#x5d0;&#x5d5;&#x5ea;&#x5da;,  &#x5d1;&#x5d3;&#x5d5;&#x5e7; &#x5d0;&#x5dd; &#x5e4;&#x5ea;&#x5d7;&#x5ea; &#x5d0;&#x5ea; &#x5d4;-GPS &#x5d5;&#x5e0;&#x5e1;&#x5d4; &#x5e9;&#x5d5;&#x5d1;!" />
+            <entry key="cancel" value="" />
+            <entry key="t2g.favorites" value="&#x5e9;&#x5de;&#x5d5;&#x5e8; &#x5d0;&#x5ea; &#x5d4;&#x5e4;&#x5d5;&#x5e1;&#x5d8;&#x5d9;&#x5dd; &#x5d4;&#x5d0;&#x5d4;&#x5d5;&#x5d1;&#x5d9;&#x5dd; &#x5e2;&#x5dc;&#x5d9;&#x5da;!" />
+            <entry key="t2g.fbLoginErr" value="&#x5d0;&#x5e0;&#x5d0; &#x5d5;&#x5d5;&#x5d3;&#x5d0; &#x5e9;&#x5d7;&#x5e9;&#x5d1;&#x5d5;&#x5df; &#x5d4;-facebook &#x5de;&#x5d5;&#x5d2;&#x5d3;&#x5e8; &#x5d4;&#x5d9;&#x5d8;&#x5d1; &#x5d1;&#x5d4;&#x5d2;&#x5d3;&#x5e8;&#x5d5;&#x5ea; &#x5d4;&#x5de;&#x5db;&#x5e9;&#x5d9;&#x5e8;. " />
+            <entry key="t2g.start" value=" &lt; &#x5d1;&#x5d7;&#x5e8; &#x5d9;&#x5e2;&#x5d3; &#x5d8;&#x5d9;&#x5e1;&#x5d4; &#x5d5;&#x5ea;&#x5ea;&#x5d7;&#x5d9;&#x5dc; &#x5dc;&#x5d9;&#x5d4;&#x5e0;&#x5d5;&#x5ea;!" />
+            <entry key="t2g.tips" value="&#x5e7;&#x5d1;&#x5dc; &#x5d4;&#x5de;&#x5dc;&#x5e6;&#x5d5;&#x5ea; &#x5d5;&#x5d8;&#x5d9;&#x5e4;&#x5d9;&#x5dd; &#x5d1;&#x5d6;&#x5de;&#x5df; &#x5d0;&#x5de;&#x5ea;!" />
+            <entry key="about" value="&#x5d4;&#x5e8;&#x5e9;&#x5ea; &#x5d4;&#x5d7;&#x5d1;&#x5e8;&#x5ea;&#x5d9;&#x5ea; &#x5dc;&#x5d8;&#x5e1;&#x5d9;&#x5dd; &#x5dc;&#x5d7;&#x5d5;&quot;&#x5dc; , &#x5de;&#x5e2;&#x5dc; 100 &#x5e7;&#x5d4;&#x5d9;&#x5dc;&#x5d5;&#x5ea; &#x5d9;&#x5e2;&#x5d3; &#x5d5;&#x5d0;&#x5dc;&#x5e4;&#x5d9; &#x5e0;&#x5d5;&#x5e1;&#x5e2;&#x5d9;&#x5dd;. &#x5d8;&#x5e1; &#x5dc;&#x5d7;&#x5d5;&quot;&#x5dc;? &#x5ea;&#x5d5;&#x5db;&#x5dc; &#x5dc;&#x5e4;&#x5d2;&#x5d5;&#x5e9; &#x5d7;&#x5d1;&#x5e8;&#x5d9;&#x5dd; &#x5dc;&#x5d4;&#x5ea;&#x5d9;&#x5d9;&#x5e2;&#x5e5; &#x5d5;&#x5dc;&#x5e9;&#x5ea;&#x5e3;. &#x5db;&#x5ea;&#x5d5;&#x5d1; &#x5e4;&#x5d5;&#x5e1;&#x5d8; ,&#x5e6;&#x5d1;&#x5d5;&#x5e8; &#x5e0;&#x5e7;&#x5d5;&#x5d3;&#x5d5;&#x5ea; &#x5d5;&#x5ea;&#x5d4;&#x5e0;&#x5d4; &#x5de;&#x5de;&#x5ea;&#x5e0;&#x5d5;&#x5ea;" />
+            <entry key="t2g.demoTitle2" value="&#x5d0;&#x5dc;&#x5e4;&#x5d9; &#x5d7;&#x5d1;&#x5e8;&#x5d9;&#x5dd; &#x5d8;&#x5e1;&#x5d9;&#x5dd; &#x5d9;&#x5d7;&#x5d3; &#x5d0;&#x5d9;&#x5ea;&#x5da;!" />
+            <entry key="t2g.continue" value=" &lt; &#x5d4;&#x5de;&#x5e9;&#x5da;" />
+            <entry key="t2g.slowConnection" value=" &#x5d4;&#x5ea;&#x5e7;&#x5e9;&#x5d5;&#x5e8;&#x5ea; &#x5d0;&#x5d9;&#x5d8;&#x5d9;&#x5ea;, &#x5e2;&#x5d5;&#x5d3; &#x5e8;&#x5d2;&#x5e2; &#x5d1;&#x5d0;&#x5d5;&#x5d5;&#x5d9;&#x5e8;" />
+            <entry key="t2g.checkinAbroadAnd" value="(&#x5d0;&#x5dd; &#x5d0;&#x5ea;&#x5d4; &#x5d1;&#x5d7;&#x5d5;&quot;&#x5dc; &#x5d5;&#x5d0;&#x5ea;&#x5d4; &#x5e2;&#x5d3;&#x5d9;&#x5d9;&#x5df; &#x5e8;&#x5d5;&#x5d0;&#x5d4; &#x5d4;&#x5d5;&#x5d3;&#x5e2;&#x5d4; &#x5d6;&#x5d5;, &#x5d5;&#x5d5;&#x5d3;&#x5d0; &#x5db;&#x5d9; &#x5d4;-GPS &#x5d3;&#x5dc;&#x5d5;&#x5e7;)" />
+            <entry key="t2g.serverErr" value="&#x5d0;&#x5d5;&#x5e4;&#x5e1;...&#x5d9;&#x5e9; &#x5dc;&#x5e0;&#x5d5; &#x5d1;&#x5e2;&#x5d9;&#x5d4; &#x5d6;&#x5de;&#x5e0;&#x5d9;&#x5ea;, &#x5d0;&#x5e0;&#x5d0; &#x5e0;&#x5e1;&#x5d4; &#x5de;&#x5d0;&#x5d5;&#x5d7;&#x5e8; &#x5d9;&#x5d5;&#x5ea;&#x5e8;." />
+            <entry key="t2g.networkErr" value="&#x5d1;&#x5e2;&#x5d9;&#x5d9;&#x5ea; &#x5e8;&#x5e9;&#x5ea;, &#x5e0;&#x5e1;&#x5d4; &#x5e9;&#x5d5;&#x5d1; &#x5de;&#x5d0;&#x5d5;&#x5d7;&#x5e8; &#x5d9;&#x5d5;&#x5ea;&#x5e8;" />
+            <entry key="t2g.checkinAbroad" value="&#x5e0;&#x5d9;&#x5ea;&#x5df; &#x5dc;&#x5d1;&#x5e6;&#x5e2; &#x5e4;&#x5e2;&#x5d5;&#x5dc;&#x5d4; &#x5d6;&#x5d5; &#x5de;&#x5d7;&#x5d5;&quot;&#x5dc; &#x5d0;&#x5d5; &#x5de;&#x5e0;&#x5ea;&#x5d1;&quot;&#x5d2;" />
+            <entry key="t2g.gameabroad" value="&#x5d4;&#x5e9;&#x5ea;&#x5ea;&#x5e4;&#x5d5;&#x5ea; &#x5d1;&#x5de;&#x5e9;&#x5d7;&#x5e7; Travelmaker &#x5ea;&#x5ea;&#x5d0;&#x5e4;&#x5e9;&#x5e8; &#x5e8;&#x5e7; &#x5d1;&#x5d7;&#x5d5;&quot;&#x5dc;, &#x5d0;&#x5dc; &#x5ea;&#x5e9;&#x5db;&#x5d7;&#x5d5; &#x5dc;&#x5d7;&#x5d6;&#x5d5;&#x5e8; &#x5d0;&#x5dc;&#x5d9;&#x5e0;&#x5d5; &#x5db;&#x5e9;&#x5ea;&#x5e0;&#x5d7;&#x5ea;&#x5d5; &#x5d1;&#x5d9;&#x5e2;&#x5d3;!" />
+            <entry key="ok" value="" />
+            <entry key="t2g.gifts" value="&#x5ea;&#x5d4;&#x5e0;&#x5d4; &#x5de;&#x5de;&#x5d2;&#x5d5;&#x5d5;&#x5df; &#x5de;&#x5ea;&#x5e0;&#x5d5;&#x5ea; &#x5d5;&#x5d4;&#x5d8;&#x5d1;&#x5d5;&#x5ea;!" />
+            <entry key="edit" value="" />
+            <entry key="select" value="" />
+            <entry key="t2g.slow3" value="&#x5e2;&#x5d5;&#x5d3; &#x5e8;&#x5d2;&#x5e2; &#x5d1;&#x5d0;&#x5d5;&#x5d5;&#x5d9;&#x5e8;!" />
+            <entry key="t2g.slow2" value="&#x5d4;&#x5ea;&#x5e7;&#x5e9;&#x5d5;&#x5e8;&#x5ea; &#x5d0;&#x5d9;&#x5d8;&#x5d9;&#x5ea;..." />
+            <entry key="t2g.slow1" value="&#x5d0;&#x5d5;&#x5e4;&#x5e1;..." />
+            <entry key="t2g.discover" value="&#x5d2;&#x5dc;&#x5d4; &#x5de;&#x5d9; &#x5d8;&#x5e1; &#x5d0;&#x5d9;&#x5ea;&#x5da;!" />
+            <entry key="t2g.demoTitle" value="&#x5d4;&#x5e8;&#x5e9;&#x5ea; &#x5d4;&#x5d7;&#x5d1;&#x5e8;&#x5ea;&#x5d9;&#x5ea; &#x5dc;&#x5d8;&#x5e1;&#x5d9;&#x5dd; &#x5dc;&#x5d7;&#x5d5;&quot;&#x5dc;" />
+            <entry key="t2g.err3" value="&#x5d5;&#x5e0;&#x5e1;&#x5d4; &#x5d0;&#x5d5;&#x5ea;&#x5d9; &#x5e9;&#x5d5;&#x5d1;" />
+        </lang>
+        <lang name="en">
+            <entry key="t2g.gamelocal" value="You can participate in this game only from Israel" />
+            <entry key="t2g.err2" value="please return to your" />
+            <entry key="t2g.err1" value="Dear passenger" />
+            <entry key="menu" value="Menu" />
+            <entry key="t2g.noGPS" value="No GPS signal, make sure GPS is enabled." />
+            <entry key="cancel" value="Cancel" />
+            <entry key="t2g.favorites" value="Save your favorites posts!" />
+            <entry key="t2g.fbLoginErr" value="Please make sure your Facebook account is configured properly in the device Settings" />
+            <entry key="t2g.start" value="Pick your Destination &gt;" />
+            <entry key="t2g.tips" value="Get tips in realtime!" />
+            <entry key="about" value="Travel2gether the social network for travelers. Post recommendations, share tips and upload photos. Gain points and get presents" />
+            <entry key="t2g.demoTitle2" value="Your friends travel with you!" />
+            <entry key="t2g.continue" value="Continue &gt;" />
+            <entry key="t2g.slowConnection" value="Slow connection..." />
+            <entry key="t2g.checkinAbroadAnd" value=" (if you are abroad and you still see this message, make sure your gps is turned on)" />
+            <entry key="t2g.serverErr" value="We have a problem, please try later." />
+            <entry key="t2g.networkErr" value="Network error occured try later" />
+            <entry key="t2g.checkinAbroad" value="Check In is only allowed when you are abroad or from the air port" />
+            <entry key="t2g.gameabroad" value="You can participate in the game only once you&#x2019;ve reached your destination. Don&#x2019;t forget to come back once you&#x2019;ve arrived!" />
+            <entry key="ok" value="OK" />
+            <entry key="t2g.gifts" value="Win gifts!" />
+            <entry key="edit" value="Edit" />
+            <entry key="select" value="Select" />
+            <entry key="t2g.slow3" value="we'll be on air in a minute" />
+            <entry key="t2g.slow2" value="seems like connection is slow" />
+            <entry key="t2g.slow1" value="Oops," />
+            <entry key="t2g.discover" value="Find out who flies with you!" />
+            <entry key="t2g.demoTitle" value="The Social Network for the Travelers" />
+            <entry key="t2g.err3" value="seat and try again" />
+        </lang>
+    </l10n>
     <ui name="LoginForm" />
     <ui name="Main" />
+    <image name="menu.png" type="multi"  />
+    <image name="of_menu.png" type="multi"  />
+    <image name="OKGR.borderBottom_1.png" type="multi"  />
+    <image name="OKGR.borderBottomL_1.png" type="multi"  />
+    <image name="OKGR.borderBottomR_1.png" type="multi"  />
+    <image name="OKGR.borderCenter_1.png" type="multi"  />
+    <image name="OKGR.borderLeft_1.png" type="multi"  />
+    <image name="OKGR.borderRight_1.png" type="multi"  />
+    <image name="OKGR.borderTop_1.png" type="multi"  />
+    <image name="OKGR.borderTopL_1.png" type="multi"  />
+    <image name="OKGR.borderTopR_1.png" type="multi"  />
     <ui name="RequestAccess" />
+    <image name="sliderBlueCenter.png" type="multi"  />
+    <image name="sliderBlueLeft.png" type="multi"  />
+    <image name="sliderBlueRight.png" type="multi"  />
+    <image name="sliderEmpty.png" type="multi"  />
+    <image name="sliderEmptyLeft.png" type="multi"  />
+    <image name="sliderEmptyRight.png" type="multi"  />
+    <image name="switch_mask.png" type="multi"  />
+    <image name="switch_off.png" type="multi"  />
+    <image name="switch_on.png" type="multi"  />
     <theme name="Theme">
         <val key="@includeNativeBool" value="true" />
+        <val key="Welcome.bgColor" value="ffff" />
+        <val key="Welcome.fgColor" value="0000" />
+        <font key="Welcome.font" type="system" face="0" style="1" size="16" />
+        <val key="Welcome.textDecoration" value="32" />
+        <val key="Welcome.transparency" value="255" />
     </theme>
+    <image name="TitleArea.borderBottom_2.png" type="multi"  />
+    <image name="TitleArea.borderBottomL_2.png" type="multi"  />
+    <image name="TitleArea.borderBottomR_2.png" type="multi"  />
+    <image name="TitleArea.borderCenter_2.png" type="multi"  />
+    <image name="TitleArea.borderLeft_2.png" type="multi"  />
+    <image name="TitleArea.borderRight_2.png" type="multi"  />
+    <image name="TitleArea.borderTop_2.png" type="multi"  />
+    <image name="TitleArea.borderTopL_2.png" type="multi"  />
+    <image name="TitleArea.borderTopR_2.png" type="multi"  />
 </resource>

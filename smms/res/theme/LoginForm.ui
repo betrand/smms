@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<component type="Form" name="LoginForm" cloudDestinationProperty="LoginForm" title="Login" >
+<component type="Form" name="LoginForm" cloudDestinationProperty="LoginForm" snapToGrid="true" layout="BoxLayout" boxLayoutAxis="Y" title="Login" >
+  <component type="Container" name="Welcome" cloudDestinationProperty="RememberMeContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Welcome" cloudDestinationProperty="Welcome" uiid="Welcome" text="Welcome to EMB Sales and" >
+      <custom name="maskName" type="java.lang.String" value="" />
+    </component>
+    <component type="Label" name="Welcome1" cloudDestinationProperty="Welcome" uiid="Welcome" text="Marketing Management System" >
+      <custom name="maskName" type="java.lang.String" value="" />
+    </component>
+  </component>
+  <component type="Container" name="UsernameContainer" cloudDestinationProperty="UsernameContainer" layout="TableLayout" tableLayoutRows="1" tableLayoutColumns="2" >
+    <component type="Label" name="Username" cloudDestinationProperty="Label" snapToGrid="true" text="Username" gap="5" verticalAlignment="4" >
+    </component>
+    <component type="TextField" name="Username" cloudBoundProperty="text" cloudDestinationProperty="TextField" nextFocusDown="Password" nextFocusRight="Password" snapToGrid="true" text="" hint="Enter Username" >
+    </component>
+  </component>
+  <component type="Container" name="PasswordContainer" cloudDestinationProperty="Container" layout="TableLayout" tableLayoutRows="1" tableLayoutColumns="2" >
+    <component type="Label" name="Password" cloudDestinationProperty="Label" text="Password" >
+    </component>
+    <component type="TextField" name="Password" cloudBoundProperty="text" cloudDestinationProperty="TextField" nextFocusDown="Remember" nextFocusRight="Remember" text="" hint="Enter Password" >
+    </component>
+  </component>
+  <component type="Container" name="Remember" cloudDestinationProperty="Remember" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="CheckBox" name="Remember" cloudDestinationProperty="Remember" text="Remember" >
+    </component>
+    <component type="Button" name="ResetPassword" cloudDestinationProperty="ResetPassword" text="Reset Password" >
+    </component>
+  </component>
+  <component type="Container" name="SubmitLogins" cloudDestinationProperty="SubmitLogins" focusable="false" snapToGrid="false" flatten="false" scrollableY="false" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="Button" name="Login" cloudDestinationProperty="Button" commandName="Send" commandId="5" commandAction="$Execute" commandArgument="" commandBack="true" snapToGrid="true" flatten="false" text="Send" >
+      <custom name="maskName" type="java.lang.String" value="" />
+    </component>
+    <component type="Button" name="Cancel" cloudDestinationProperty="Cancel" text="Cancel" >
+    </component>
+  </component>
 </component>

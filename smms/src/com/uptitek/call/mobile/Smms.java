@@ -29,7 +29,8 @@ public class Smms {
             current.show();
             return;
         }
-        new StateMachine("/theme");        
+        new StateMachine("/theme");    
+        //new StateMachine("/login");  
     }
 
     public void stop() {
